@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">Planet cafe Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the cafe</p>
+  </head>
+  <body>
+    <div class="survey">
+<form id="survey-form">
+  <br>
+  <label id="name-label">
+    Enter your name:
+    <br>
+    <input class="emails" placeholder="Your name..." required id="name" type="text"/>
+    <br>
+    <br>
+    </label>
+<label id="email-label">
+  Enter your email:
+  <br>
+  <input class="emails" placeholder="Your email..." required type="email" id="email"/>
+  <br>
+  <br>
+  </label>
+<label id="number-label">
+  Enter your age:
+  <br>
+  <input class="emails" placeholder="Your age..." min="13" max="111" type="number" id="number"/>
+  <br>
+  <br>
+   </label>
+    <label>
+      How much time do you spend here?
+      <br>
+  <select id="dropdown">
+    <option value="">(select option)</option>
+    <option value="1">0-2 hours per day</option>
+    <option value="2">3-5 hours per day</option>
+    <option value="3">6-8 hours per day</option>
+    <option value="4">other</option>
+    </select>
+    <br>
+    <br>
+    </label>
+    <label for="yes">
+            Do you go just for the wifi?
+            <br>
+      <input id="yes" type="radio" class="inline" name="answer"/>Yes
+      <br>
+      <input id="no" type="radio" class="inline" name="answer"/>No
+      <br>
+      <br>
+      </label>
+      <label for="improvement" name="improvement">
+        What improvements would you like to see?
+        <br>
+        <input value="" type="checkbox" id="improve" class="inline"/>
+        None
+        <br>
+        <input value="1" type="checkbox" id="improve" class="inline"/>
+           Better quality coffee
+           <br>
+         <input value="2" type="checkbox" id="improve" class="inline"/>
+         Faster internet speeds
+          <br>
+           <input value="4" type="checkbox" id="improve" class="inline"/>
+           More variety of food options
+           <br>
+           <br>
+           </label>
+          Any other comments?
+          <br>
+           <textarea id="additional-comments" rows="3" name="additional-comments" cols="30" placeholder="Additional comments..."></textarea>
+            <br>
+            <br>
+             <input class="stone" type="submit" value="submit"/>
+           </div>
+  </body>
+
+
+</form>
+  </html>
